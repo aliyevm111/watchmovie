@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Movies</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<div class="umumi">	
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: black!important; color: white!important; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; position: fixed!important; width: 100%!important; z-index: 2000;">
+			<a class="navbar-brand" href="#" style="color: white!important;">
+		  		<img src="images/large2.png" style="width: 150px; height: 76px; margin-top: -30px;">
+		    </a>
+		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: white!important; background-color: white!important;">
+		    	<span class="navbar-toggler-icon" style="color: white!important;"></span>
+		    </button>
+
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    	<ul class="navbar-nav mr-auto" style="color: white!important;">
+		      		<li class="nav-item active" style="color: white!important;">
+		        		<a class="nav-link" href="#" style="color: white!important;">
+		        			<button type="button" class="btn btn-outline-success">Login</button>
+		        			<span class="sr-only">(current)</span></a>
+		      		</li>
+		      		<li class="nav-item" style="color: white!important;">
+		       			<a class="nav-link" href="#" style="color: white!important;">
+		        			<button type="button" class="btn btn-outline-success">Register now</button>
+		        		</a>
+		      		</li>
+		    		<li class="nav-item dropdown" style="color: white!important;">
+		        		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white!important; margin-top: 5px; margin-left: 15px;">
+		          			Follow us
+		        		</a>
+		        		<div class="dropdown-menu" aria-labelledby="navbarDropdown" style="height: 160px!important;">
+		        			<a class="dropdown-item" href="https://www.instagram.com/m.aliyev1903/" target="_blank" style=" padding: 0!important;" title="instagram">
+								<button class="insta" style="width: 100%!important; height: auto!important;">
+									<i class="fab fa-instagram"></i>
+									<p>Instagram</p>
+								</button>
+							</a>
+		           			<a class="dropdown-item" href="https://www.facebook.com" target="_blank" style=" padding: 0!important; margin-top: 10px!important;" title="facebook">
+								<button class="insta" style="width: 100%!important; height: auto!important; margin-top: 10px!important; text-align: left!important;">
+									<i class="fab fa-twitter"></i>
+									<p>Facebook</p>
+								</button>
+							</a>
+							<a class="dropdown-item"  href="https://www.twitter.com" target="_blank" style=" padding: 0!important; margin-top: 10px!important;" title="twitter">
+								<button class="insta" style="width: 100%!important; height: auto!important; margin-top: 10px!important; text-align: left!important;">
+									<i class="fab fa-instagram"></i>
+									<p>Twitter</p>
+								</button>
+							</a>
+							<a class="dropdown-item" href="https://www.linkedin.com" target="_blank" style=" padding: 0!important; margin-top: 10px!important;" title="linkedin">
+								<button class="insta" style="width: 100%!important; height: auto!important; margin-top: 10px!important; text-align: left!important;">
+									<i class="fab fa-linkedin-in"></i>
+									<p>Linkedin</p>
+								</button>
+							</a>		        
+		        		</div>
+		     		</li>		      
+		    	</ul>
+		    	<form class="form-inline my-2 my-lg-0">
+		      		<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+		      			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		    	</form>
+		    </div>
+		</nav>
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slaydlar" style="margin-top: 90px; float: left; height: 500px;">
+			<div class="iconsol" style="color: white; font-size: 50px; position: absolute; justify-content: center; width: 32%; display: flex;align-items: center; display: none;">
+				<i class="fas fa-chevron-left"></i>
+			</div>
+			<div class="iconsag" style="color: white; font-size: 50px; position: absolute; justify-content: center; width: 32%; display: flex;align-items: center;float: left; margin-left: 66%; display: none;">
+				<i class="fas fa-chevron-right"></i>
+			</div>
+			<div title="Spider Man" class="slayd" style="box-shadow: 4px 4px 4px yellow; width: 26%; height: auto; margin: 0px auto; transition: 1s;">
+				<div>
+					<img src="images/indir.webp" style="width: 100%; height: auto;">
+				</div>
+				<div style="height: auto; color: white; width: 100%; margin: 0px auto; text-align: center;background-color: red;">
+					<p>Spider Man</p>
+				</div>
+			</div>
+			<div title="Maleficent" class="slayd" style="box-shadow: 4px 4px 4px yellow; width: 26%; height: auto; margin: 0px auto; display: none;">
+				<div>
+					<img src="images/indir1.webp" style="width: 100%; height: auto;">
+				</div>
+				<div style="height: auto; color: white; width: 100%; margin: 0px auto; text-align: center;background-color: red;">
+					<p>Maleficent 2</p>
+				</div>
+			</div>
+			<div title="The Irishman" class="slayd" style="box-shadow: 4px 4px 4px yellow; width: 26%; height: auto; margin: 0px auto; display: none;">
+				<div>
+					<img src="images/indir2.webp" style="width: 100%; height: auto;">
+				</div>
+				<div style="height: auto; color: white; width: 100%; margin: 0px auto; text-align: center;background-color: red;">
+					<p>The Irishman</p>
+				</div>
+			</div>
+			<div title="The King" class="slayd" style="box-shadow: 4px 4px 4px yellow; width: 26%; height: auto; margin: 0px auto; display: none;">
+				<div>
+					<img src="images/indir3.webp" style="width: 100%; height: auto;">
+				</div>
+				<div style="height: auto; color: white; width: 100%; margin: 0px auto; text-align: center;background-color: red;">
+					<p>The King</p>
+				</div>
+			</div>
+			<div title="The Art of Racing in the Rain" class="slayd" style="box-shadow: 4px 4px 4px yellow; width: 26%; height: auto; margin: 0px auto; display: none;">
+				<div>
+					<img src="images/indir4.webp" style="width: 100%; height: auto;">
+				</div>
+				<div style="height: auto; color: white; width: 100%; margin: 0px auto; text-align: center;background-color: red;">
+					<p>The Art of Racing in the Rain</p>
+				</div>
+			</div>
+			<div title="Synonymes" class="slayd" style="box-shadow: 4px 4px 4px yellow; width: 26%; height: auto; margin: 0px auto; display: none;">
+				<div>
+					<img src="images/indir5.webp" style="width: 100%; height: auto;">
+				</div>
+				<div style="height: auto; color: white; width: 100%; margin: 0px auto; text-align: center;background-color: red;">
+					<p>Synonymes</p>
+				</div>
+			</div>
+			<div title="The Angry Birds Movie 2" class="slayd" style="box-shadow: 4px 4px 4px yellow; width: 26%; height: auto; margin: 0px auto; display: none;">
+				<div>
+					<img src="images/indir6.webp" style="width: 100%; height: auto;">
+				</div>
+				<div style="height: auto; color: white; width: 100%; margin: 0px auto; text-align: center;background-color: red;">
+					<p>The Angry Birds Movie 2</p>
+				</div>
+			</div>
+			<div title="Toy story 4" class="slayd" style="box-shadow: 4px 4px 4px yellow; width: 26%; height: auto; margin: 0px auto; display: none;">
+				<div>
+					<img src="images/indir7.webp" style="width: 100%; height: auto;">
+				</div>
+				<div style="height: auto; color: white; width: 100%; margin: 0px auto; text-align: center;background-color: red;">
+					<p>Toy Story 4</p>
+				</div>
+			</div>
+			<div title="Men in Black 4" class="slayd" style="box-shadow: 4px 4px 4px yellow; width: 26%; height: auto; margin: 0px auto; display: none;">
+				<div>
+					<img src="images/indir8.webp" style="width: 100%; height: auto;">
+				</div>
+				<div style="height: auto; color: white; width: 100%; margin: 0px auto; text-align: center;background-color: red;">
+					<p>Men in Black 4</p>
+				</div>
+			</div>
+			<div title="Aladdin" class="slayd" style="box-shadow: 4px 4px 4px yellow; width: 26%; height: auto; margin: 0px auto; display: none;">
+				<div>
+					<img src="images/indir9.webp" style="width: 100%; height: auto;">
+				</div>
+				<div style="height: auto; color: white; width: 100%; margin: 0px auto; text-align: center;background-color: red;">
+					<p>Aladdin</p>
+				</div>
+			</div>
+			<div title="Dark Phoenix" class="slayd" style="box-shadow: 4px 4px 4px yellow; width: 26%; height: auto; margin: 0px auto; display: none;">
+				<div>
+					<img src="images/indir10.webp" style="width: 100%; height: auto;">
+				</div>
+				<div style="height: auto; color: white; width: 100%; margin: 0px auto; text-align: center;background-color: red;">
+					<p>Dark Phoenix</p>
+				</div>
+			</div>
+			<div title="Godzilla" class="slayd" style="box-shadow: 4px 4px 4px yellow; width: 26%; height: auto; margin: 0px auto; display: none;">
+				<div>
+					<img src="images/indir11.webp" style="width: 100%; height: auto;">
+				</div>
+				<div style="height: auto; color: white; width: 100%; margin: 0px auto; text-align: center;background-color: red;">
+					<p>Godzilla</p>
+				</div>
+			</div>
+			<div title="Avengers" class="slayd" style="box-shadow: 4px 4px 4px yellow; width: 26%; height: auto; margin: 0px auto; display: none;">
+				<div>
+					<img src="images/indir12.webp" style="width: 100%; height: auto;">
+				</div>
+				<div style="height: auto; color: white; width: 100%; margin: 0px auto; text-align: center;background-color: red;">
+					<p>Avengers</p>
+				</div>
+			</div>
+			<div title="Hellboy 3" class="slayd" style="box-shadow: 4px 4px 4px yellow; width: 26%; height: auto; margin: 0px auto; display: none;">
+				<div>
+					<img src="images/indir13.webp" style="width: 100%; height: auto;">
+				</div>
+				<div style="height: auto; color: white; width: 100%; margin: 0px auto; text-align: center;background-color: red;">
+					<p>Hellboy 3</p>
+				</div>
+			</div>
+			<div title="Terminator 6" class="slayd" style="box-shadow: 4px 4px 4px yellow; width: 26%; height: auto; margin: 0px auto; display: none;">
+				<div>
+					<img src="images/indir14.webp" style="width: 100%; height: auto;">
+				</div>
+				<div style="height: auto; color: white; width: 100%; margin: 0px auto; text-align: center;background-color: red;">
+					<p>Terminator 6</p>
+				</div>
+			</div>
+			<div title="Joker" class="slayd" style="box-shadow: 4px 4px 4px yellow; width: 26%; height: auto; margin: 0px auto; display: none;">
+				<div>
+					<img src="images/indir15.webp" style="width: 100%; height: auto;">
+				</div>
+				<div style="height: auto; color: white; width: 100%; margin: 0px auto; text-align: center;background-color: red;">
+					<p>Joker</p>
+				</div>
+			</div>
+			<div title="Rambo 5" class="slayd" style="box-shadow: 4px 4px 4px yellow; width: 26%; height: auto; margin: 0px auto; display: none;">
+				<div>
+					<img src="images/indir16.webp" style="width: 100%; height: auto;">
+				</div>
+				<div style="height: auto; color: white; width: 100%; margin: 0px auto; text-align: center;background-color: red;">
+					<p>Rambo 5</p>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

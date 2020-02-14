@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	// $('.iconsol').css('height',$('.slayd').css('height'))
+	$('.iconsol').css('height',$('.slayd').css('height'))
 	$('.slaydlar').hover(function () {
 		$('.iconsol').css('height',$('.slayd').css('height'))
 		$('.iconsag').css('height',$('.slayd').css('height'))

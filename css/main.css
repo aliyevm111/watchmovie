@@ -66,3 +66,78 @@
 .iconsol i:hover{
 	color: blue;
 }
+.menu{
+	height: 50px;
+	background-color: #f4f4f4;
+	float: left;
+	margin-top: 30px;
+	border-bottom: 3px solid blue;
+	border-top: 3px solid blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+
+
+}
+.menues{
+	width: 12.5%!important;
+	float: left;
+	border-left: 1px solid black;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.menues p{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px!important;
+	margin-top: 15px;
+	color: #1e59d0!important;
+}
+@media only screen and (max-width: 1075px) {
+  .menues p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .menues p {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 821px) {
+  .menues p {
+    font-size: 10px;
+  }
+  .menu{
+  	height: 40px;
+  }
+  .menues{
+  	height: 40px;
+  }
+  .menues p{
+  	height: 40px;
+  }
+}
+@media only screen and (max-width: 681px) {
+  .menues p {
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 481px) {
+  .menues p {
+    font-size: 8px;
+  }
+}
+.menues:hover{
+	cursor: pointer;
+	background-color: #1e59d0;
+}
+.menues:hover p{
+	color: white!important;
+
+}

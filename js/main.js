@@ -27,7 +27,7 @@ $(document).ready(function() {
 		$('.slaydlar .slayd').eq(slideIndex).fadeTo(400,1);
 		timeout = setTimeout(name1,7000);
 	}
-	$('.iconsol').click(function(x) {
+	$('.iconsol i').click(function(x) {
 		clearTimeout(timeout);
 		if (slideIndex==0) {
 			slideIndex = $('.slaydlar .slayd').length-1;
@@ -37,7 +37,7 @@ $(document).ready(function() {
 		}
 		name2();
 	})
-	$('.iconsag').click(function(x) {
+	$('.iconsag i').click(function(x) {
 		clearTimeout(timeout);
 		if (slideIndex==$('.slaydlar .slayd').length-1) {
 			slideIndex = 0;

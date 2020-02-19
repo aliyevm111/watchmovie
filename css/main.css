@@ -309,9 +309,10 @@
 	display: none;
 	}
 }
-@media only screen and (max-width: 606px) {
-  .p p {
-   font-size: 5px!importants;
+@media only screen and (max-width: 613px) {
+  .p {
+   /*font-size: 5px!importants;*/
+   display: none!important;
    /*color: red!important;*/
   }
 }
